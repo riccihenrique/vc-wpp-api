@@ -1,0 +1,24 @@
+{
+  "name": "wpp-api",
+  "version": "1.0.0",
+  "description": "WhatsApp API para uso local com Baileys",
+  "main": "src/local.js",
+  "scripts": {
+    "start": "node src/local.js",
+    "dev": "nodemon src/local.js",
+    "lint": "eslint src/"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.16",
+    "express": "^4.21.0",
+    "multer": "^1.4.5-lts.1",
+    "pino": "^9.5.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
